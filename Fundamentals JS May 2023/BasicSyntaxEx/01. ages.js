@@ -1,19 +1,23 @@
-function ages(age) {
+function ages(input) {
+    let age = Number(input);
+    let result = "";
 
-    if (age >= 0 && age <= 2) {
-        console.log("baby");
-    } else if (age >= 3 && age <= 13) {
-        console.log("child");
-    } else if (age >= 14 && age <= 19) {
-        console.log("teenager");
-    } else if (age >= 20 && age <= 65) {
-        console.log("adult");
-    } else if (age >= 66) {
-        console.log("elder");
-    } else {
-        console.log("out of bounds");
+    if(age < 0){
+        result = 'out of bounds';
     }
+    else if (age >= 0 && age <= 2) {
+        result = "baby";
+    } else if (age <= 13) {
+        result = "child";
+    } else if (age <= 19) {
+        result = "teenager";
+    } else if (age <= 65) {
+        result = "adult";
+    } else if (age > 65) {
+        result = "elder";
+    }
+        console.log(result);
 
 }
 
-ages(-20);
+ages(65);
