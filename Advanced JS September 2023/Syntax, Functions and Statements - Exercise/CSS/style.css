@@ -1,0 +1,25 @@
+.special{
+    font-style: italic;
+    font-weight: bold;
+    color: blue;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+#modern {
+    background-color: #EEE;
+}
+
+p{
+    font-size: 24pt;
+}
+
+a.login {
+    width: 80px;
+}
+
+#news > h2 {
+    background-color: yellow;
+}

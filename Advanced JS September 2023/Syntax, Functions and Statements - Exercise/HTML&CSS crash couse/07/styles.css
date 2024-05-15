@@ -1,0 +1,8 @@
+th {
+    background-color: #ADD8E6;
+    border: solid 1px black;
+}
+
+th, td {
+    border: solid 1px grey;
+}

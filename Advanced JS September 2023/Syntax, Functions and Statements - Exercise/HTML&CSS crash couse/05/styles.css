@@ -1,0 +1,13 @@
+* {
+    color: #687487;
+    text-align: center;
+}
+
+.sub-menu {
+    font-style: italic;
+    color: #34383f;
+}
+
+p {
+    font-family:'Courier New', Courier, monospace;
+}
